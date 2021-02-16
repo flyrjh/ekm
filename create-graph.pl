@@ -9,7 +9,7 @@ $start = $end - (24*60*60);
 
 $dt = `date '+%Y%m%d'`;
 $dt =~ s/\n//g;
-$file = $dt . '_7638_Auden_Trl_utilities.png';
+$file = $dt . '_utilities.png';
 
 # TODO: Use RRDs
 #print "start: $start end: $end\n";
